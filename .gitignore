@@ -1,4 +1,5 @@
 node_modules/
+src/api/
 .expo/
 dist/
 npm-debug.*
