@@ -9,9 +9,9 @@ export default () => {
     try {
       const response = await yelp.get("/search", {
         params: {
-          limit: 20,
+          limit: 50,
           term: searchTerm,
-          location: "london",
+          location: "manchester",
         },
       });
       setResults(response.data.businesses);
